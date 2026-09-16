@@ -1,1 +1,62 @@
+shipment_id,origin,destination,ship_date,delivery_date,weight_kg,cost,delay_reason
+FRJ-00123,Malmö,Århus,2024-01-03,2024-01-05,200,DKK 3100,traffic jam
+frj_00123,Malmö,Århus,03/01/2024,05/01/2024,approx 200kg,3100 DKK,Jam
+#9912,Kalmar,Uppsala,2024-02-10,2024-02-09,150,SEK 1200,early delivery?
+9912,Kalmar,Uppsala,2024-02-10,,150kg,1200,missing timestamp
+AB-77,Århus,Langhus,2024-03-01,2024-03-04,-20,DKK 2100,weight error
+AB_77,Århus,Langhus,01-03-2024,04-03-2024,20kg,2100 DKK,none
+ZX-9001,Trondheim,Langhus,2024/04/12,2024/04/15,300kg,NOK 5400,delayed by traffic
+ZX9001,Trondheim,Langhus,2024-04-12,2024-04-15,300,5400 NOK,traffic
+TRK-55,Kalmar,Uppsala,2024-05-01,2024-05-03,100kg,SEK 900,warehouse issue
+trk55,Kalmar,Uppsala,2024-05-01,2024-05-03,100,900 SEK,warehouse delay
+FRJ-00124,Malmö,Århus,2024-01-04,2024-01-06,210kg,DKK 3200,none
+FRJ00124,Malmö,Århus,04/01/2024,06/01/2024,210,3200 DKK,none
+FRJ-00125,Malmö,Århus,2024-01-05,2024-01-07,205kg,DKK 3150,traffic jam
+FRJ00125,Malmö,Århus,05/01/2024,07/01/2024,205,3150 DKK,Jam
+FRJ-00126,Malmö,Århus,2024-01-06,2024-01-08,198kg,DKK 3000,none
+FRJ00126,Malmö,Århus,06/01/2024,08/01/2024,198,3000 DKK,none
+FRJ-00127,Malmö,Århus,2024-01-07,2024-01-09,202kg,DKK 3300,none
+FRJ00127,Malmö,Århus,07/01/2024,09/01/2024,202,3300 DKK,none
+FRJ-00128,Malmö,Århus,2024-01-08,2024-01-10,199kg,DKK 3050,none
+FRJ00128,Malmö,Århus,08/01/2024,10/01/2024,199,3050 DKK,none
+FRJ-00129,Malmö,Århus,2024-01-09,2024-01-11,201kg,DKK 3100,none
+FRJ00129,Malmö,Århus,09/01/2024,11/01/2024,201,3100 DKK,none
+FRJ-00130,Malmö,Århus,2024-01-10,2024-01-12,203kg,DKK 3150,none
+FRJ00130,Malmö,Århus,10/01/2024,12/01/2024,203,3150 DKK,none
+FRJ-00131,Malmö,Århus,2024-01-11,2024-01-13,207kg,DKK 3250,none
+FRJ00131,Malmö,Århus,11/01/2024,13/01/2024,207,3250 DKK,none
+FRJ-00132,Malmö,Århus,2024-01-12,2024-01-14,209kg,DKK 3300,none
+FRJ00132,Malmö,Århus,12/01/2024,14/01/2024,209,3300 DKK,none
+FRJ-00133,Malmö,Århus,2024-01-13,2024-01-15,212kg,DKK 3400,none
+FRJ00133,Malmö,Århus,13/01/2024,15/01/2024,212,3400 DKK,none
+FRJ-00134,Malmö,Århus,2024-01-14,2024-01-16,215kg,DKK 3500,none
+FRJ00134,Malmö,Århus,14/01/2024,16/01/2024,215,3500 DKK,none
+FRJ-00135,Malmö,Århus,2024-01-15,2024-01-17,218kg,DKK 3600,none
+FRJ00135,Malmö,Århus,15/01/2024,17/01/2024,218,3600 DKK,none
+FRJ-00136,Malmö,Århus,2024-01-16,2024-01-18,220kg,DKK 3700,none
+FRJ00136,Malmö,Århus,16/01/2024,18/01/2024,220,3700 DKK,none
+FRJ-00137,Malmö,Århus,2024-01-17,2024-01-19,225kg,DKK 3800,none
+FRJ00137,Malmö,Århus,17/01/2024,19/01/2024,225,3800 DKK,none
 
+GT-9001,Gothenburg,Hirtshals,2024-02-01,2024-02-03,180,DKK 2900,none
+GT9001,Gothenburg,Hirtshals,01/02/2024,03/02/2024,180kg,2900 DKK,none
+GT-9002,Gothenburg,Hirtshals,2024-02-02,2024-02-04,175,DKK 2850,none
+GT9002,Gothenburg,Hirtshals,02/02/2024,04/02/2024,175kg,2850 DKK,none
+GT-9003,Gothenburg,Hirtshals,2024-02-03,2024-02-05,190,DKK 3000,traffic
+GT9003,Gothenburg,Hirtshals,03/02/2024,05/02/2024,190kg,3000 DKK,Jam
+
+OS-551,Oslo,Helsingborg,2024-03-10,2024-03-12,160,NOK 2100,none
+OS551,Oslo,Helsingborg,10/03/2024,12/03/2024,160kg,2100 NOK,none
+OS-552,Oslo,Helsingborg,2024-03-11,2024-03-13,165,NOK 2150,none
+OS552,Oslo,Helsingborg,11/03/2024,13/03/2024,165kg,2150 NOK,none
+
+HK-771,Helsinki,Jönköping,2024-04-01,2024-04-04,140,€450,none
+HK771,Helsinki,Jönköping,01/04/2024,04/04/2024,140kg,450 EUR,none
+HK-772,Helsinki,Jönköping,2024-04-02,2024-04-05,145,€460,none
+HK772,Helsinki,Jönköping,02/04/2024,05/04/2024,145kg,460 EUR,none
+
+AA-221,Aalborg,Växjö,2024-05-01,2024-05-03,130,DKK 1800,none
+AA221,Aalborg,Växjö,01/05/2024,03/05/2024,130kg,1800 DKK,none
+
+TR-441,Trondheim,Langhus,2024-06-01,2024-06-03,155,NOK 2500,none
+TR441,Trondheim,Langhus,01/06/2024,03/06/2024,155kg,2500 NOK,none
