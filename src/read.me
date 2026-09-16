@@ -1,0 +1,60 @@
+1. Shipment ID normalization
+Regex used:
+str_replace_all("[^A-Z0-9]", "")
+Removes everything except letters and numbers.
+Optimized regex:
+str_replace("^([A-Z]{2,3})([0-9])", "\\1-\\2")
+What it does:
+Detects any 2–3 letter prefix (FRJ, GT, OS, HK, AA, TR, etc.)
+Inserts a dash before the numeric part
+Works for all future prefixes without adding new rules
+Replaces 6–7 separate str_replace() calls with one generalized rule
+Why it’s efficient:
+Runs once over the entire column (vectorized), not per row.
+
+2. Weight normalization
+Regex used:
+str_replace_all("[^0-9.-]", "")
+What it does:
+Extracts numeric values from messy strings like:
+approx 200kg
+198kg
+150kg
+-20
+20kg
+Why it’s efficient:
+One regex handles all noise patterns.
+
+3. Currency normalization
+Regex used:
+str_replace_all("[A-Z]|€", "")
+str_replace_all("[^0-9.-]", "")
+What it does:
+Removes:
+SEK, DKK, NOK, EUR
+€ symbol
+commas
+spaces
+trailing punctuation
+Then converts to numeric.
+Why it’s efficient:
+Two regex sweeps clean all currency formats.
+
+4. Delay reason normalization
+Regex used:
+str_detect(..., "jam")
+str_detect(..., "warehouse")
+What it does:
+Maps messy text like:
+Jam
+delayed by traffic
+warehouse issue
+into standardized categories:
+traffic jam
+warehouse delay
+none
+Why it’s efficient:
+One semantic rule per category, not per row.
+
+5. Flags
+No regex here — just logical checks.
